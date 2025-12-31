@@ -152,4 +152,34 @@ a {
     font-size: 24px;
 }
 
+.call-to-action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 100px;
+}
 
+.call-to-action-container {
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    max-width: 1000px;
+    width: 100%;
+    justify-content: space-around;
+    padding: 40px 30px;
+    border-radius: 8px;
+}
+
+.call-button {
+    align-self: flex-end;
+    border-radius: 8px;
+    padding: 6px 30px;
+    border: 2px solid white;
+    font-weight: 900;
+}
+
+.call-main-txt {
+    font-weight: 900;
+    font-size: 24px;
+
+}
