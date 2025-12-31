@@ -8,16 +8,13 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
     color: #E5E7EB;
     text-decoration: none;
-}
-
-.main-container {
-    display: flex;
-    flex-direction: column;
 }
 
 .top-container {
@@ -84,12 +81,12 @@ a {
     border-radius: 8px;
     color: #E5E7EB;
     font-weight: 900;
-    font-size: large;
+    font-size: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8px 10px;
-    max-width: 110px;
+    padding: 8px 24px;
+    align-self: flex-start;
 }
 
 .info-container {
@@ -163,15 +160,14 @@ a {
     display: flex;
     background-color: #3882F6;
     color: #F9FAF8;
-    max-width: 1000px;
-    width: 100%;
+    width: 1000px;
     justify-content: space-around;
     padding: 40px 30px;
     border-radius: 8px;
 }
 
 .call-button {
-    align-self: flex-end;
+    align-self: center;
     border-radius: 8px;
     padding: 6px 30px;
     border: 2px solid white;
@@ -179,7 +175,15 @@ a {
 }
 
 .call-main-txt {
-    font-weight: 900;
+    font-weight: bold;
     font-size: 24px;
+}
 
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
