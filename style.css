@@ -15,9 +15,12 @@ a {
     text-decoration: none;
 }
 
-.container {
+.main-container {
     display: flex;
     flex-direction: column;
+}
+
+.top-container {
     background-color: #1F2937;
 }
 
@@ -26,7 +29,7 @@ a {
     justify-content: space-between;
     padding-top: 28px;
     align-items: center;
-    width: 1000px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -44,7 +47,7 @@ a {
 
 .hero-container {
     display: flex;
-    width: 1000px;
+    width: 1200px;
     justify-content: space-between;
     gap: 90px;
     align-items: center;
@@ -88,3 +91,38 @@ a {
     padding: 8px 10px;
     max-width: 110px;
 }
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 50px 0;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+}
+.info-img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid blue;
+    border-radius: 8px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    margin: 0 40px;
+    text-align: center;
+}
+
+
